@@ -13,7 +13,7 @@ This application is to demonstrate working knowledge of the single page web appl
 3. The application will have the ability to add, edit, and delete entries.
 
 ## Wireframe
-![wirefram](pics/expense_tracker_wireframe.png.jpg)
+![wirefram](pics/expense_tracker_wireframe.png)
 
 ## Color Scheme
 ![color scheme](pics/color_scheme.png)
