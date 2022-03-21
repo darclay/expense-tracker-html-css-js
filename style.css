@@ -1,13 +1,41 @@
 body {
   background-color: #96ffff;
+  margin: 0;
+  padding: 0;
 }
 header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 95vw;
+  margin: 50px auto 50px auto;
 }
-header .balanceDiv {
+.accountDropdownDiv select {
+  height: 75px;
+  width: 300px;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #c8eff9;
+}
+.rightHeader {
+  display: flex;
+  align-items: center;
+  height: 75px;
+}
+.balanceDiv {
   background-color: #f27d42;
+  height: 100%;
+  width: 200px;
+  margin-left: 30px;
+}
+
+.balanceDiv h4, .balanceDiv p  {
+  margin: 0;
+  padding: 3px;
+  text-align: center;
+  font-weight: normal;
+  
 }
 .transactionFormDiv {
   margin-left: auto;
