@@ -7,5 +7,37 @@ header {
   justify-content: center;
 }
 header .balanceDiv {
-  background-color: ;
+  background-color: #f27d42;
+}
+.transactionFormDiv {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #55bdca;
+  height: 100px;
+  width: 95vw;
+  border: 1px solid black;
+}
+.transactionFormDiv form {
+  display: flex;
+  justify-content: center;
+} 
+.transactionFormDiv form label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+
+}
+.transactionFormDiv form label input {
+  margin-top: 10px;
+  height: 40px;
+  width: 162px;
+}
+
+#payee {
+  width: 288px;
+}
+#submit {
+  width: 40px;
 }
