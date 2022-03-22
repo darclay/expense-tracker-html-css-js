@@ -3,6 +3,10 @@ body {
   margin: 0;
   padding: 0;
 }
+/*I can also display the background in a red color using a css class name of active(see script.js - function alertOnNegative())*/
+/* .active {
+  background-color: rgb(177, 106, 106);
+} */
 header {
   display: flex;
   align-items: center;
@@ -34,8 +38,7 @@ header {
   margin: 0;
   padding: 3px;
   text-align: center;
-  font-weight: normal;
-  
+  font-weight: normal; 
 }
 .transactionFormDiv {
   margin-left: auto;
@@ -55,17 +58,27 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 5px;
-
 }
 .transactionFormDiv form label input {
   margin-top: 10px;
   height: 40px;
   width: 162px;
 }
-
+.displayTransactionsDiv .transactions {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px auto 20px auto;
+  background-color: #55bdca;
+  height: 120px;
+  width: 95vw;
+  border: 1px solid black;
+}
 #payee {
   width: 288px;
 }
-#submit {
+#submit, #delete, #edit {
   width: 40px;
+  height: 40px;
 }
+
